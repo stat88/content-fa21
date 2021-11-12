@@ -19,7 +19,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Homework 11 ##"
+    "## Stat88 Fall 2021 Homework 11 ##"
    ]
   },
   {
@@ -153,115 +153,6 @@
     "\n"
    ]
   },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 4. Calfiornia Earthquakes ###\n",
-    "\n",
-    "California is prone to earthquakes, and geostatisticians use probabilistic models to try to understand them. In this exercise, \"earthquake\" will mean an earthquake of magnitude 4.9 or greater on the Richter scale. The figure below shows the distribution of the gaps in time (measured in days) between earthquakes in California during the years 1857 to 2014. The red curve is an exponential density.\n",
-    "\n",
-    "![earthquake gaps](hw11_earthquakes.png)\n",
-    "\n",
-    "You can see why it is tempting to use an exponential model for the gaps. You can also see that it's an over-simplifcation. But it's a start. \n",
-    "\n",
-    "Suppose the time between two earthquakes has the exponential distribution with mean 1100 days. \n",
-    "\n",
-    "Use `np.e` for $e$ and `np.log` for the $\\log$ function when you compute numerical values below.\n",
-    "\n",
-    "**a)** Find the chance that an earthquake happens within a year after the previous one. Ignore leap years; just use 365 for the number of days in a year. You are using a simplified model for data, so your answers will be rough anyway.\n",
-    "\n",
-    "**b)** Fill in the blank with a number:\n",
-    "\n",
-    "There is a 50% chance that an earthquake happens less than $\\underline{~~~~~~~~~~~~~~~}$ days after the previous one.\n",
-    "\n",
-    "**c)** Let $T$ be the time between two earthquakes, measured in days. Now let $X$ be $T$ measured in years, using 365 days as the length of a year. Write the relation between $T$ and $X$, and then find $P(X \\le x \\text{ years})$ for $x > 0$.\n",
-    "\n",
-    "**d)** Use Part **c** to identify the distribution of $X$. Provide its name, the parameter or parameters, and the expectation."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true,
-    "jupyter": {
-     "outputs_hidden": true
-    }
-   },
-   "outputs": [],
-   "source": [
-    "### Code Cell for Problem 4\n",
-    "\n",
-    "\n",
-    "\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 5. Minimum of Independent Exponentials ###\n",
-    "\n",
-    "A device has two electronic components. Let $T_1$ be the lifetime of Component 1, and suppose $T_1$ has the exponential distribution with mean 5 years. Let $T_2$ be the lifetime of Component 2, and suppose $T_2$ has the exponential distribution with mean 3 years. \n",
-    "\n",
-    "Suppose $T_1$ and $T_2$ are independent of each other, and let $M = \\min(T_1, T_2)$ be the minimum of the two lifetimes. In other words, $M$ is the first time one of the two components dies.\n",
-    "\n",
-    "**a)** For each $t > 0$, find $P(M > t)$.\n",
-    "\n",
-    "[Hint: If the minimum has to be bigger than $t$, what does that tell you about each of the lifetimes?]\n",
-    "\n",
-    "**b)** Use Part **a** to identify the distribution of $M$. Provide its name and parameter (or parameters, if there are more than one).\n",
-    "\n",
-    "**c)** Find the numerical value of $E(M)$."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true,
-    "jupyter": {
-     "outputs_hidden": true
-    }
-   },
-   "outputs": [],
-   "source": [
-    "### Code Cell for Problem 5\n",
-    "\n",
-    "\n",
-    "\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Submission Instructions     \n",
-    "Please follow the directions below to properly submit your homework.\n",
-    "\n",
-    "*  Scan all pages of **your work** into a PDF. You can use any scanner or a phone. Please **DO NOT** simply take pictures using your phone. \n",
-    "* Please start a new page for each question. If you have already written multiple questions on the same page, you can crop the image or fold your page over (the old-fashioned way). This helps expedite grading.\n",
-    "* It is your responsibility to check that all the work on all the scanned pages is legible.\n",
-    "\n",
-    "\n",
-    "### Submitting\n",
-    "* Submit the assignment to Homework 11 on Gradescope.\n",
-    "* **Make sure to assign each page of your pdf to the correct question.**\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true,
-    "jupyter": {
-     "outputs_hidden": true
-    }
-   },
-   "outputs": [],
-   "source": []
-  }
  ],
  "metadata": {
   "kernelspec": {
