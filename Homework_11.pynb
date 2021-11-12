@@ -19,7 +19,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Homework 11 ##"
+    "## Stat88 Fall 2021 Homework 11 ##"
    ]
   },
   {
@@ -136,7 +136,24 @@
     "**b)** Approximately what is the chance that the average of 100 measurements is strictly within 1 centimeter of the true distance $\\mu$ meters?"
    ]
   },
-   {
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": true,
+    "jupyter": {
+     "outputs_hidden": true
+    }
+   },
+   "outputs": [],
+   "source": [
+    "### Code Cell for Problem 3\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
@@ -153,7 +170,7 @@
     "* **Make sure to assign each page of your pdf to the correct question.**\n"
    ]
   },
-{
+  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {
